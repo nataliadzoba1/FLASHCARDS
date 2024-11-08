@@ -19,26 +19,24 @@ footer p{
 #container{
     display: flex;
 }
-.cartão{
+.cartao{
     margin: 1rem, 1rem;
     background-color: aqua;
     height: 20rem;
     flex-grow: 1;
-    flex-basis: calc(33% -6rem);
+    flex-basis: calc(33% - 6rem);
 }
-.cartão__conteudo{
+.cartao__conteudo{
     text-align: center;
     background-color: aquamarine;
     height: 100%;
 }
-.cartão__conteudo h3{
+.cartao__conteudo h3{
     background-color: tomato;
     text-align: left;
-    padding: 0.5rem;
+    padding:  0.5rem;
     position: absolute;
     margin: 0.6rem;
-    border-radius: 0.6rem;
+    border-radius:  0.6rem;
     font-size: 1vw;
 }
-
-
